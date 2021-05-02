@@ -1,0 +1,30 @@
+// Not complete
+Module main()
+    Call lowCalories()
+End Module
+
+Module lowCalories()
+    Declare Integer Real calories
+    Declare Integer fat grams
+
+    Display "Enter a number for real calories."
+    input caloreies_number
+        Display "Enter a number for real fat gram."
+    input fat_gram_number 
+    set  Percentage of calories from fat = (Fat grams × 9) ÷ calories
+    Display result
+
+End Module
+
+
+If Percentage of calories from fat > 30% Then
+    Display "food is low in fat."
+End If
+
+Program Output
+
+//Real calories = 3
+//fat grams = 2
+
+6
+food is low in fat
