@@ -1,0 +1,45 @@
+
+
+import math
+
+a = 1
+
+
+
+def my_sqrt(a):
+    x = a
+    while True:
+        y = (x + a/x) / 2.0
+        if y == x:
+            break
+        x = y
+    return y
+
+def math_sqrt(a):
+    x = a
+    while True:
+        y = (x + a/x) / 2.0
+        if y == x:
+            break
+        x = y
+    return y
+
+
+def test_square_root():
+    a = 1.0
+    print("a",' ',"my_sqrt(a)",' ', "math_sqrt(a)",' ', "diff")
+    
+    while a < 10.0:
+        print(a,' ',my_sqrt(a),' ', math_sqrt(a),' ', math_sqrt(a)-my_sqrt(a))
+        a += 1
+
+test_square_root()
+
+print ('')
+print ('another one')
+print ('')
+
+
+while a < 26.0:
+        print(a,' ',my_sqrt(a),' ', math_sqrt(a),' ', math_sqrt(a)-my_sqrt(a))
+        a += 1
