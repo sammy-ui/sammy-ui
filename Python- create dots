@@ -1,0 +1,70 @@
+
+
+Python 
+
+>>> #1 you must define new line first
+>>> 
+>>> def new_line():
+	print('.')
+
+	
+>>> #Then write a function in this file called ****nine_lines**** that uses the function ***three_lines**** to print a total of nine lines.
+>>> 
+>>> def nine_lines():
+	new_line()
+	new_line()
+	new_line()
+	new_line()
+	new_line()
+	new_line()
+	new_line()
+	new_line()
+	new_line()
+
+	
+>>> # example of nine lines
+>>> nine_lines()
+.
+.
+.
+.
+.
+.
+.
+.
+.
+>>> def three_lines():
+	new_line()
+	new_line()
+	new_line()
+
+	
+>>> #example of three lines
+>>> three_lines()
+.
+.
+.
+>>> #Next make a ****clear_screen*** function that uses a combination of ***nine_lines****, ***three_lines***, and ****new_line*** to print a total of twenty-five lines.
+>>> 
+>>> def clear_screen():
+	nine_lines()
+	three_lines()
+	new_line()
+
+	
+>>> #example of clear screen
+>>> clear_screen()
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+>>> 
