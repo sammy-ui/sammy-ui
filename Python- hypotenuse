@@ -1,0 +1,28 @@
+
+
+import math
+
+#Stage 1:
+def blink(a, b):
+    return 0.0
+#Stage 2:
+def blink(a, b):
+   no = a**2
+   yes = b**2
+   print ("no", no)
+   print ("yes", yes)
+   return 0.0
+#Stage 3:
+
+def blink(a, b):
+    no = a - b
+    yes = a - b
+    dsquared = no**2 + yes**2
+    result = math.sqrt(dsquared)
+    return result
+
+last = blink(10, 2), blink(100, 2), blink(500, 2)
+
+
+print(last)
+
