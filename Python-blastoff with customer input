@@ -1,0 +1,38 @@
+
+
+# This shows the blast off count for up,down, and zero
+# The countdown code
+def countdown (n):
+    if (n <= 0):
+        print ('Blastoff!')
+    else:
+        print (n)
+        countdown (n-1)
+# The countup code
+def countup (n):
+    if n >= 0:
+        print ('Blastoff!')
+    else:
+        print (n)
+        countup (n+1)
+# If you put zero in the prompt        
+def countnone (n):
+    if n == 0:
+        print ('no_Blastoff!')
+    else:
+        print (n)
+        countup (n+0)
+#the code to run the program.           
+        
+        
+def countnew():
+    n= int(input ("Please enter a blast amount:"))
+    if n<0:
+        countup(n)
+    elif n>0:
+        countdown(n)
+    else:
+        countnone(n)
+        
+        
+countnew()
