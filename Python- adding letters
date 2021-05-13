@@ -1,0 +1,40 @@
+
+
+prefixes = 'JKLMNOPQ'
+suffix = 'ack'
+
+
+
+for letter in prefixes:
+     print(letter + suffix)
+print("......")
+
+print('next example')
+
+print(".........")
+
+for letter in prefixes:
+    if letter == "O" or letter == "Q": # per instructions only change Oack + Qack
+        print(letter + "u" + suffix)# add u to change the word
+    else:
+        print(letter + suffix)
+
+       
+print("......")
+
+print('Part 2')
+
+print(".........")
+
+print("string slices")
+
+print('example 1')
+
+toy = "mickey mouse"
+print(toy[:3])
+print(".........")
+print('example 2')
+print(toy[3:])
+print(".........")
+print('example 3')
+print(toy[3:6]*2)
