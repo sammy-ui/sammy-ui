@@ -1,0 +1,12 @@
+
+#Write a function called print_volume (r) that takes an argument for
+#the radius of the sphere, and prints the volume of the sphere.
+# radius r is 4/3πr(3) and in this example the radius is 10
+
+import math
+
+print (4/3)
+1.3333333333333333
+r=1.333
+
+print(r*math.pi*10**3)
